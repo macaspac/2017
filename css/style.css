@@ -349,6 +349,10 @@ hr {
     height: 100%;
   }
 
+  .project-set > .proj-button {
+    height: 100%;
+  }
+
   .proj-button > .proj-main {
     margin: 0;
     padding: 40px 0;
