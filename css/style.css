@@ -362,7 +362,8 @@ hr {
   }
 
   .project-intro {
-    padding: 20px;
+    padding: 200px 20px;
+    height: 100%;
   }
 
   .ill-set {
@@ -376,7 +377,7 @@ hr {
   .intro {
     display: flex;
     position: absolute;
-    height: 90vh;
+    height: 90%;
     background-color: #FFFFFF;
     width: 100%;
     padding: 20px;
