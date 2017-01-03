@@ -103,19 +103,23 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #B8860B;
+  color: #191919;
+  font-weight: 600;
   text-decoration: none;
+  transition: all 0.2s ease;
 }
 
 a:hover {
-  color: #A07203;
+  color: #B8860B;
+  transition: all 0.2s ease;
 }
 
 .project-set > a {
     color: #191919;
     text-decoration: none;
     background-image: none;
-    font-style: normal;
+    font-weight: 300;
+
 }
 
 .project-set > a:hover h1 {
@@ -132,6 +136,7 @@ a.proj-button {
     border-bottom: 1px solid #eeeeee;
     text-decoration: none;
     background-image: none;
+    font-weight: 300;
 }
 
 /* Divs
@@ -143,6 +148,13 @@ header {
   width: 100%;
   color: #191919;
   background-color: #FFFFFF;
+}
+
+.header {
+  padding: 20px;
+}
+.header-mobile {
+  display: none;
 }
 
 .container {
@@ -263,8 +275,23 @@ header {
 
 .proj-button:hover {
   border-bottom: 1px solid #eeeeee;
-  background-color: #eeeeee;
   transition: all 0.5s ease;
+}
+
+.jb:hover {
+  background-color: #C7B1EF;
+}
+
+.ff:hover {
+  background-color: #B0DAB9;
+}
+
+.ab:hover {
+  background-color: #DD5E89;
+}
+
+.lab:hover {
+  background-color: #FFC371;
 }
 
 .intro-img {
@@ -310,18 +337,20 @@ hr {
   padding: 40px;
 }
 
+.social a {
+  color: #575757;
+}
+
+.social a:hover {
+  color: #191919;
+}
+
 .social > li {
   display: inline-block;
   list-style: none;
-  margin: 5px;
+  margin: 10px;
 }
 
-.header {
-  padding: 20px;
-}
-.header-mobile {
-  display: none;
-}
 
 /* Mobile
 -------------------------------------------------- */
