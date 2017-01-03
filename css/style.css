@@ -267,7 +267,7 @@ header {
 
 .project-set > .proj-button {
   display: flex;
-  height: 40vh;
+  padding: 20px 0;
   justify-content: center;
   background-color: #ffffff;
   transition: all 0.5s ease;
