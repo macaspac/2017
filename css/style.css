@@ -196,7 +196,7 @@ header {
 .intro {
   display: flex;
   position: fixed;
-  height: 100vh;
+  height: 95vh;
   max-width: 960px;
   top: 0;
 }
@@ -211,7 +211,7 @@ header {
 
 .project-set {
   position: relative;
-  top: 100vh;
+  top: 95vh;
   width: 100%;
   z-index: 1;
 }
