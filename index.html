@@ -19,12 +19,13 @@
     <div class="topline"></div>
 
     <!-- HOME INTRO -->
-    <div class="intro flex-center">
-      <div class="intro-title">
+    <div class="intro flex-center-v">
+      <div class="home-intro">
         <div class="intro-content">
           <h1>Hi, I'm Leanne Macaspac</h1>
           <h2>I'm a Toronto-based designer creating digital solutions for enterprise clients at Konrad Group.</h2>
         </div>
+        <div class="view-proj flex-center-v"><div class="link"><h1><a href="#work">See work</a></h1></div><div class="line"></div></div>
       </div>
     </div>
 
@@ -36,7 +37,7 @@
           <div class="proj-content">
             <h2>Abstract Magazine: Wake up the North</h2>
             <p class="light">Conceptual branding of a Toronto-based print magazine and translating the editorial experience in a digital space.</p>
-            <div class="view-proj flex-center-v"><div><h1><a href="abstract.html">View project</a></h1></div><div class="linelight"></div></div>
+            <div class="view-proj flex-center-v"><div class="link"><h1><a href="abstract.html">View project</a></h1></div><div class="linelight"></div></div>
           </div>
         </div>
       </div>
@@ -46,7 +47,7 @@
           <div class="proj-content">
             <h2>Faux Food: The labelling and production of genetically modified food</h2>
             <p>Visualizing label and production regulation of genetically modified food in countries around the world.</p>
-            <div class="view-proj flex-center-v"><div><h1 class="dark"><a href="faux-food.html">View project</a></h1></div><div class="line"></div></div>
+            <div class="view-proj flex-center-v"><div class="link"><h1 class="dark"><a href="faux-food.html">View project</a></h1></div><div class="line"></div></div>
           </div>
           <div class="proj-img"><object type="image/svg+xml" data="img/fauxfood.svg" class="proj-logo">Abstract Logo</object></div>
         </div>
@@ -58,7 +59,7 @@
           <div class="proj-content">
             <h2>James Brown: The most sampled man in showbiz</h2>
             <p class="light">Data visualization that illustrates the musical legacy of James Brown, based on data from WhoSampled.com.</p>
-            <div class="view-proj flex-center-v"><div><h1><a href="james-brown.html">View project</a></h1></div><div class="linelight"></div></div>
+            <div class="view-proj flex-center-v"><div class="link"><h1><a href="james-brown.html">View project</a></h1></div><div class="linelight"></div></div>
           </div>
         </div>
       </div>
@@ -68,7 +69,7 @@
           <div class="proj-content">
             <h2>The lab</h2>
             <p>Illustrations, animations and everything in between.</p>
-            <div class="view-proj flex-center-v"><div><h1><a href="lab.html">View Experiments</a></h1></div><div class="line"></div></div>
+            <div class="view-proj flex-center-v"><div class="link"><h1><a href="lab.html">View Experiments</a></h1></div><div class="line"></div></div>
           </div>
           <div class="proj-img"><object type="image/svg+xml" data="img/lab.svg" class="proj-logo">lab</object></div>
         </div>
@@ -95,7 +96,8 @@
             <p>I'm always open to chat or make something dope. Feel free to e-mail me at <a href="mailto:leanne@macaspac.ca">leanne@macaspac.ca</a>.
             I'd love to hear from you!</p>
             <br>
-            <a href="#work">See work</a>
+            <div class="view-proj flex-center-v"><div class="link"><h1><a href="#work">See work</a></h1></div><div class="line"></div></div>
+
             <br>
 
 
@@ -124,7 +126,7 @@
       if (target.length) {
         $('html, body').animate({
           scrollTop: target.offset().top
-        }, 1000);
+        }, 600);
         return false;
       }
     }
