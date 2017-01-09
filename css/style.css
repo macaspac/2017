@@ -444,12 +444,12 @@ hr {
     display: none;
   }
 
-  .header-mobile, .br {
+  .header-mobile {
     display: block;
     padding: 20px;
   }
 
-  .intro-title {
+  .home-intro, .intro-title {
     padding: 0;
   }
 
