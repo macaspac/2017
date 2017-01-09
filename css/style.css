@@ -195,7 +195,7 @@ header {
 
 .intro {
   display: flex;
-  position: absolute;
+  position: fixed;
   height: 100vh;
   max-width: 960px;
   top: 0;
@@ -517,7 +517,7 @@ hr {
   }
 
   .intro {
-    position: absolute;
+    position: fixed;
     padding: 20px;
     z-index: 0;
   }
