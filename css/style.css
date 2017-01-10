@@ -39,7 +39,7 @@ body {
     letter-spacing: 0.01em;
     font-family: 'Merriweather'; serif;
     color: #191919;
-    background-color: #191919;
+    background-color: #FFFFFF;
     margin: auto;
     webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -166,14 +166,6 @@ header {
   width: 100%;
   color: #191919;
   background-color: #FFFFFF;
-}
-
-.topline {
-  position: relative;
-  height: 5px;
-  width: 100%;
-  margin: 0;
-  background-color: #191919;
 }
 
 .header {
