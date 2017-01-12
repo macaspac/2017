@@ -122,10 +122,12 @@ a {
   color: #191919;
   font-weight: 600;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 
 a:hover {
-  color: #191919;
+  opacity: 0.6;
+  transition: all 0.3s ease-in-out;
 }
 
 .project-set > a {
@@ -155,6 +157,7 @@ a:hover {
   width: 40px;
   transition: all 0.3s ease-in-out;
   outline: none;
+  opacity: 0.6;
 }
 
 /* GLOBAL
