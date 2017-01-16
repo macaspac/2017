@@ -84,7 +84,7 @@ p {
   padding: 10px 0;
 }
 
-.ab h1, .ab h2, .jb h1, .jb h2 {
+.ab h1, .ab h2, .jb h1, .jb h2, .wf h1, .wf h2 {
   color: #FFFFFF;
 }
 
@@ -329,6 +329,10 @@ header {
   margin: 40px;
 }
 
+.wf {
+  background: linear-gradient(-45deg, #2165da, #407EEA);
+}
+
 .jb {
   background: linear-gradient(-45deg, #27004E, #61368F);
 }
@@ -472,12 +476,12 @@ hr {
 
   .proj-button > .proj-main {
     margin: 0;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .proj-button > .proj-main-b {
     margin: 0;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .proj-img {
