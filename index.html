@@ -29,59 +29,47 @@
 
     <!-- PROJECTS -->
     <div class="project-set" id="work">
-
-      <div class="proj-button flex-center wf">
-        <div class="proj-main-b flex-center">
-          <div class="proj-img"><object type="image/svg+xml" data="img/wayfinder-logo.svg" class="proj-logo">Wayfinder</object></div>
-          <div class="proj-content">
-            <h2>Wayfinder: A Financial Wellness tool</h2>
-            <p class="light">Helping Canadians plan their finances, achieve their goals faster and sustain financial wellness.</p>
-            <div class="view-proj flex-center-v"><div class="link"><h1 class="dark"><a href="wayfinder.html">Read case study</a></h1></div><div class="linelight"></div></div>
-          </div>
-        </div>
-      </div>
-
       <div class="proj-button flex-center ab">
         <div class="proj-main flex-center">
+          <div class="proj-img"><object type="image/svg+xml" data="img/abstract-logo.svg" class="proj-logo">Abstract Logo</object></div>
           <div class="proj-content">
             <h2>Abstract Magazine: Wake up the North</h2>
             <p class="light">Conceptual branding of a Toronto-based print magazine and translating the editorial experience in a digital space.</p>
             <div class="view-proj flex-center-v"><div class="link"><h1><a href="abstract.html">View project</a></h1></div><div class="linelight"></div></div>
           </div>
-          <div class="proj-img"><object type="image/svg+xml" data="img/abstract-logo.svg" class="proj-logo">Abstract Logo</object></div>
         </div>
       </div>
 
       <div class="proj-button flex-center ff">
         <div class="proj-main-b flex-center">
-          <div class="proj-img"><object type="image/svg+xml" data="img/fauxfood.svg" class="proj-logo">Abstract Logo</object></div>
           <div class="proj-content">
             <h2>Faux Food: The labelling and production of genetically modified food</h2>
             <p>Visualizing label and production regulation of genetically modified food in countries around the world.</p>
             <div class="view-proj flex-center-v"><div class="link"><h1 class="dark"><a href="faux-food.html">View project</a></h1></div><div class="line"></div></div>
           </div>
+          <div class="proj-img"><object type="image/svg+xml" data="img/fauxfood.svg" class="proj-logo">Abstract Logo</object></div>
         </div>
       </div>
 
       <div class="proj-button flex-center jb">
         <div class="proj-main flex-center">
+          <div class="proj-img"><object type="image/svg+xml" data="img/jb.svg" class="proj-logo">JB</object></div>
           <div class="proj-content">
             <h2>James Brown: The most sampled man in showbiz</h2>
             <p class="light">Data visualization that illustrates the musical legacy of James Brown, based on data from WhoSampled.com.</p>
             <div class="view-proj flex-center-v"><div class="link"><h1><a href="james-brown.html">View project</a></h1></div><div class="linelight"></div></div>
           </div>
-          <div class="proj-img"><object type="image/svg+xml" data="img/jb.svg" class="proj-logo">JB</object></div>
         </div>
       </div>
 
       <div class="proj-button flex-center ff">
         <div class="proj-main-b flex-center">
-          <div class="proj-img"><object type="image/svg+xml" data="img/lab.svg" class="proj-logo">lab</object></div>
           <div class="proj-content">
             <h2>The lab</h2>
             <p>Illustrations, animations and everything in between.</p>
             <div class="view-proj flex-center-v"><div class="link"><h1><a href="lab.html">View Experiments</a></h1></div><div class="line"></div></div>
           </div>
+          <div class="proj-img"><object type="image/svg+xml" data="img/lab.svg" class="proj-logo">lab</object></div>
         </div>
       </div>
 
@@ -125,17 +113,9 @@
     </div> <!--project-set-->
 
   </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script src="js/jquery.lazy.min.js"></script>
-  <script>
-  $(function() {
-      $('.lazy').lazy({
-        effect: "fadeIn",
-        effectTime: 1000,
-        threshold: 500
-      });
-  });
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script>
     $(window).scroll(function(){
       var scroll = $(window).scrollTop();
       $(".intro").css("opacity", 1 - scroll / 425);
